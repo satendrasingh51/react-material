@@ -30,7 +30,7 @@ const AccountProfileDetails = (props) => {
     firstName: 'Katarina',
     lastName: 'Smith',
     email: 'demo@devias.io',
-    phone: '',
+    phone: '7536051258',
     state: 'Alabama',
     country: 'USA'
   });

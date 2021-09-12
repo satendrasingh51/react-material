@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import {Helmet} from 'react-helmet';
 import {
   Box,
   Container,
@@ -13,10 +13,10 @@ import TotalCustomers from 'src/components/dashboard//TotalCustomers';
 import TotalProfit from 'src/components/dashboard//TotalProfit';
 import TrafficByDevice from 'src/components/dashboard//TrafficByDevice';
 
-const Dashboard = () => (
+const Dashboard=() => (
   <>
     <Helmet>
-      <title>Dashboard | Material Kit</title>
+      <title>Dashboard | Digital India</title>
     </Helmet>
     <Box
       sx={{
@@ -64,7 +64,7 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <TotalProfit sx={{ height: '100%' }} />
+            <TotalProfit sx={{height: '100%'}} />
           </Grid>
           <Grid
             item
@@ -73,7 +73,7 @@ const Dashboard = () => (
             xl={9}
             xs={12}
           >
-            <Sales />
+            {/* <Sales /> */}
           </Grid>
           <Grid
             item
@@ -82,7 +82,7 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <TrafficByDevice sx={{ height: '100%' }} />
+            {/* <TrafficByDevice sx={{height: '100%'}} /> */}
           </Grid>
           <Grid
             item
@@ -91,7 +91,7 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <LatestProducts sx={{ height: '100%' }} />
+            {/* <LatestProducts sx={{height: '100%'}} /> */}
           </Grid>
           <Grid
             item
@@ -100,7 +100,7 @@ const Dashboard = () => (
             xl={9}
             xs={12}
           >
-            <LatestOrders />
+            {/* <LatestOrders /> */}
           </Grid>
         </Grid>
       </Container>
